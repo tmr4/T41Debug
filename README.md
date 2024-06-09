@@ -1,6 +1,6 @@
 # T41 Debug
 
-T41 Debug is a Windows console app designed to receive debug messages from the T4 over a single USB serial connection.  Multiple debug windows can be open at the same time.  T41 Debug works with [T41 Server](https://github.com/tmr4/T41Server).
+T41 Debug is a Windows console app designed to receive debug messages from the T41 over a single USB serial connection.  Multiple debug windows can be open at the same time.  T41 Debug works with [T41 Server](https://github.com/tmr4/T41Server).
 
 ![T41 Server and Debug Windows w/ WSJT-X](https://github.com/tmr4/T41Debug/blob/main/images/t41Server_Debug.png)
 
