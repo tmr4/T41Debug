@@ -7,6 +7,7 @@ T41 Debug is a Windows console app designed to receive debug messages from the T
 The app currently does the following:
 
   * Displays debug messages associated with this window sent from the T41.
+  * Accepts user input as a "command" to send to the T41.
 
 This is a work in progress.  Still to come is adding debug commands back to the T41, specifying the messages to view in a given window and in the server window.
 
@@ -22,4 +23,4 @@ Two debug statements, DEBUG_SERIAL and DEBUG_SERIAL2, are enabled in the T41 cod
 
 ## Limitations
 
-Debug messages associated with a debug window are discarded if you close the window.  Ideally, they should be displayed again in the server window.
+Commands entered in the debug window are currently not sent to the T41, but only displayed in the Server window.
